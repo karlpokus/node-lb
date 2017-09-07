@@ -5,7 +5,7 @@ Proxying and load balancing node.js
 note: `ab` is kinda [broken](https://gist.github.com/akitaonrails/1724673) on os x and needs some work-arounds.
 
 ```bash
-`$ ab -n 1000 -c 100 [-r] [url]`
+$ ab -n 1000 -c 100 [-r] [url]
 ```
 
 | Type | Time taken (secs) | completed/failed | rps |
